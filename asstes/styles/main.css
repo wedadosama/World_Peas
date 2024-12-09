@@ -38,3 +38,29 @@ body {
     width: 1170px;
   }
 }
+.hero{
+  margin-top: 80px;
+  padding: 100px 0;
+  text-align: center;
+}
+.hero .container .hero-text{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.hero .container .hero-text h1{
+  font-weight: 400;
+  font-size: 64px;
+  line-height: -2%;
+  align-items: center;
+  color: var(--black);
+}
+.hero .container .hero-text .shop{
+  font-weight: 600;
+  font-size: 20px;
+  margin:54px auto;  
+  padding: 30px  ;
+  color: var(--white);
+  background-color: var(--green);
+  border-radius: 8px;
+}
