@@ -17,6 +17,12 @@ body {
   padding: 0 15px;
   margin: auto;
 }
+.container li {
+  list-style: none;
+}
+.container a{
+  text-decoration: none;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -31,3 +37,4 @@ body {
   .container {
     width: 1170px;
   }
+}

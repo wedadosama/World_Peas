@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --green: #426b1f;
+  --gray: #6d6d6d;
+  --bg: #fafaf5;
+  --white: white;
+  --black: black;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  padding: 0 15px;
+  margin: auto;
+}
+.container li {
+  list-style: none;
+}
+.container a{
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:20px;
+  
+} 
+.nav nav{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.nav nav ul li a{
+  padding: 20px ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.8px;
+  color: var(--black);
+}
+.nav p{
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  letter-spacing: -1%;
+  color: var(--green);
+}
+.nav nav .Basket{
+  width: 80px;
+  height: 38px;
+  background-color: var(--green);
+  border-radius: 8px;
+}
+@media (max-width: 991px) {
+  header .nav nav {
+    display: none;
+  }
+}
